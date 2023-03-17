@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Karla;
+    src: url(https://fonts.google.com/specimen/Karla);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Karla;
+    background-color: hsl(204, 43%, 93%);
+}
+.bigcard{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+
+    
+}
+
+.topcard{
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    width:564px ;
+    padding: 3%;
+    height: 150px;
+    margin: 0px;
+
+}
+
+
+.mergedcard{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.rightcard{
+        background-color: hsl(179, 62%, 43%);
+        height: 250px;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+        padding: 3%;
+        color: hsl(204, 43%, 93%);
+}
+
+
+.leftcard{
+        background-color: hsla(179, 62%, 43%,0.4);
+        height: 250px;
+        width:300px ;
+        padding: 3%;
+        color: hsl(204, 43%, 93%);
+}
+
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    height: 30px;
+    width: 150px;
+    border: 0px;
+    border-radius: 5px;
+    color: hsl(204, 43%, 93%);
+}
+li{
+    list-style-type: none ;
+
+}
